@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Usar IA sin dejar de pensar: una propuesta para aprender con inteligencia artificial sin delegar el pensamiento crítico.">
+  <title>Pensá con IA | Usar IA sin dejar de pensar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Pensá con IA, inicio">
+      <span class="brand-mark">P.</span>
+      <span>Pensá <b>con IA</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav" aria-label="Navegación principal">
+      <a href="#idea">La idea</a>
+      <a href="#experiencia">Probalo</a>
+      <a href="#entrevistas">Entrevistas</a>
+      <a href="#guia">Guía práctica</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="pulse"></span> EDUCACIÓN · PENSAMIENTO CRÍTICO · IA</p>
+        <h1>La IA puede ayudarte.<br><span>Pensar sigue siendo tuyo.</span></h1>
+        <p class="hero-copy">Una propuesta para aprovechar la inteligencia artificial sin delegar nuestra curiosidad, autonomía ni capacidad de decidir.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experiencia">Probá el desafío <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#idea">Conocé la propuesta <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✳</span><span>No se trata de dejar de usar IA.<br><b>Se trata de aprender a usarla mejor.</b></span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración conceptual de una persona pensando junto a una inteligencia artificial">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-card art-card-top"><span class="tiny-label">PREGUNTAR</span><span class="art-symbol">?</span></div>
+        <div class="brain-shape"><span>✳</span></div>
+        <div class="art-card art-card-bottom"><span class="tiny-label">PENSAMIENTO PROPIO</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="floating-dot dot-one"></div><div class="floating-dot dot-two"></div><div class="floating-dot dot-three"></div>
+      </div>
+      <div class="hero-bottom"><span>UNA PREGUNTA PARA EMPEZAR</span><span>¿Aprender es obtener una respuesta o entender por qué es correcta? ↓</span></div>
+    </section>
+
+    <section class="video-section section-wrap" id="video">
+      <div class="section-heading">
+        <p class="eyebrow">01 / MIRAR Y PENSAR</p>
+        <h2>Antes de seguir,<br><span>mirá esto.</span></h2>
+        <p>Un punto de partida para pensar cómo se relacionan la inteligencia artificial, el aprendizaje y nuestras decisiones.</p>
+      </div>
+      <div class="video-frame">
+        <!-- Reemplazá VIDEO_ID por el ID del video de YouTube. Ejemplo: https://www.youtube.com/watch?v=VIDEO_ID -->
+        <iframe id="youtubeVideo" src="https://www.youtube-nocookie.com/embed/VIDEO_ID?rel=0" title="Video del proyecto: Usar IA sin dejar de pensar" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-placeholder" id="videoPlaceholder">
+          <div class="play-symbol">▶</div>
+          <strong>Tu video va acá</strong>
+          <span>En js/script.js, pegá el enlace de YouTube cuando lo tengas.</span>
+        </div>
+      </div>
+      <p class="video-caption"><span class="caption-dot"></span> El video introduce el problema que exploramos en esta propuesta.</p>
+    </section>
+
+    <section class="idea-section" id="idea">
+      <div class="section-wrap idea-grid">
+        <div class="section-heading">
+          <p class="eyebrow">02 / EL PROBLEMA</p>
+          <h2>¿Y si la respuesta<br><span>nos hace dejar<br>de preguntar?</span></h2>
+        </div>
+        <div class="idea-copy">
+          <p class="lead">La IA puede resolver tareas en segundos. Pero terminar una actividad no siempre significa haber aprendido.</p>
+          <p>Cuando aceptamos una respuesta sin revisarla, podemos perder oportunidades de practicar, equivocarnos, comparar ideas y construir nuestro propio criterio. El desafío no es elegir entre personas e IA: es encontrar una forma de trabajar con la tecnología sin renunciar a nuestra autonomía.</p>
+          <div class="quote-card">
+            <span class="quote-mark">“</span>
+            <p>La pregunta no es solamente qué puede hacer la IA por nosotros, sino qué queremos seguir aprendiendo a hacer por nuestra cuenta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section section-wrap" id="experiencia">
+      <div class="section-heading centered">
+        <p class="eyebrow">03 / PONETE A PRUEBA</p>
+        <h2>¿Qué harías <span>vos?</span></h2>
+        <p>Imaginá que estás preparando un trabajo práctico. Le pedís ayuda a una IA y recibís una respuesta convincente, pero no sabés si es correcta.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-top"><span class="challenge-tag">SITUACIÓN 01</span><span class="challenge-progress" id="challengeProgress">TU DECISIÓN</span></div>
+        <h3>¿Cómo seguís?</h3>
+        <div class="choices" id="choices">
+          <button class="choice" data-choice="copy"><span class="choice-letter">A</span><span><b>La copio y la entrego.</b><small>Parece coherente y tengo poco tiempo.</small></span><span class="choice-arrow">↗</span></button>
+          <button class="choice" data-choice="regenerate"><span class="choice-letter">B</span><span><b>Le pido otra respuesta.</b><small>Si la reformula, quizá me convenza más.</small></span><span class="choice-arrow">↗</span></button>
+          <button class="choice" data-choice="verify"><span class="choice-letter">C</span><span><b>La reviso y verifico sus argumentos.</b><small>Contrasto fuentes y trato de explicarla con mis palabras.</small></span><span class="choice-arrow">↗</span></button>
+        </div>
+        <div class="feedback" id="choiceFeedback" aria-live="polite" hidden></div>
+        <button class="reset-button" id="resetChallenge" hidden>Volver a elegir ↺</button>
+      </div>
+      <p class="small-note">No es un examen ni hay una puntuación. La idea es hacer visible el proceso que hay detrás de una decisión.</p>
+    </section>
+
+    <section class="method-section" id="metodo">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">04 / UNA FORMA DE USARLA</p>
+          <h2>Primero pensá.<br><span>Después consultá.</span></h2>
+          <p>Un método simple para que la IA acompañe el aprendizaje en lugar de reemplazarlo.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card"><span class="step-number">01</span><div class="step-icon">✎</div><h3>Intentá</h3><p>Antes de consultar, escribí qué entendés del problema y qué te genera dudas.</p><span class="step-bottom">ACTIVÁ TU RAZONAMIENTO</span></article>
+          <article class="step-card"><span class="step-number">02</span><div class="step-icon">✳</div><h3>Preguntá</h3><p>Pedile a la IA pistas, ejemplos o preguntas orientadoras, no solamente una solución final.</p><span class="step-bottom">USÁ LA IA COMO APOYO</span></article>
+          <article class="step-card"><span class="step-number">03</span><div class="step-icon">⌕</div><h3>Verificá</h3><p>Contrastá la respuesta con fuentes confiables y revisá si el razonamiento tiene sentido.</p><span class="step-bottom">NO CONFÍES A CIEGAS</span></article>
+          <article class="step-card"><span class="step-number">04</span><div class="step-icon">↗</div><h3>Explicá</h3><p>Volvé a formular la idea con tus palabras. Si no podés explicarla, todavía hay algo por aprender.</p><span class="step-bottom">HACÉ TUYO EL APRENDIZAJE</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="interviews-section section-wrap" id="entrevistas">
+      <div class="interviews-intro">
+        <p class="eyebrow">05 / VOCES Y EXPERIENCIAS</p>
+        <h2>La IA en la vida<br><span>universitaria.</span></h2>
+        <p>¿Cómo la usan los estudiantes? ¿Qué piensan los docentes? Las entrevistas van a sumar experiencias y perspectivas reales a esta conversación.</p>
+        <div class="interview-status"><span class="status-dot"></span><span>SECCIÓN PREPARADA PARA TUS ENTREVISTAS</span></div>
+      </div>
+      <div class="interview-panel">
+        <div class="interview-visual"><span class="interview-play">▶</span><span class="interview-label">ENTREVISTAS</span></div>
+        <div class="interview-panel-copy"><span class="eyebrow">PRÓXIMAMENTE</span><h3>Escuchar también es aprender.</h3><p>Acá podés sumar el video editado con las entrevistas, o incorporar fragmentos individuales con subtítulos.</p><a class="text-link" href="#guia">Ver las preguntas guía <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="questions-section" id="guia">
+      <div class="section-wrap questions-grid">
+        <div class="section-heading">
+          <p class="eyebrow">06 / PARA CONVERSAR</p>
+          <h2>Preguntas que<br><span>vale la pena hacer.</span></h2>
+          <p>Estas preguntas pueden orientar entrevistas, debates en clase o una reflexión personal.</p>
+        </div>
+        <div class="question-list">
+          <details open><summary>¿Usar IA significa aprender menos?</summary><p>No necesariamente. Depende de cómo la usemos: puede ayudarnos a comprender un tema o permitirnos evitar el esfuerzo de comprenderlo.</p></details>
+          <details><summary>¿Cómo sabemos si una respuesta es confiable?</summary><p>Podemos comprobar las fuentes, comparar explicaciones, revisar los argumentos y reconocer que una respuesta expresada con seguridad también puede ser incorrecta.</p></details>
+          <details><summary>¿Qué papel le queda al docente?</summary><p>Orientar, proponer problemas, acompañar procesos y ayudar a desarrollar criterios. La tecnología no reemplaza por sí sola el vínculo pedagógico.</p></details>
+          <details><summary>¿Quién es responsable de lo que entregamos?</summary><p>El uso de una herramienta no elimina nuestra responsabilidad. Es importante comprender, revisar y poder justificar el trabajo presentado.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="closing-orb">✳</div>
+      <p class="eyebrow">UNA IDEA PARA LLEVARSE</p>
+      <h2>No uses la IA para<br><span>dejar de pensar.</span></h2>
+      <p>Usala para llegar más lejos, hacer mejores preguntas y aprender con más autonomía.</p>
+      <a class="button button-light" href="#inicio">Volver al inicio ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#inicio"><span class="brand-mark">P.</span><span>Pensá <b>con IA</b></span></a>
+    <p>Proyecto educativo · Inteligencia artificial y autonomía estudiantil</p>
+    <span class="footer-note">Una propuesta para aprender con criterio propio.</span>
+  </footer>
+</body>
+</html>
