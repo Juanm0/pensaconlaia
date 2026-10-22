@@ -56,17 +56,17 @@ if (menuToggle && mainNav) {
 }
 
 const feedbackContent = {
-  copy: {
-    title: "Resolver no siempre es aprender.",
-    body: "Copiar una respuesta sin comprenderla puede resolver la entrega inmediata, pero deja sin comprobar si entendiste el tema. Además, podrías presentar errores sin detectarlos. Si elegís este camino, al menos frená y preguntate: ¿puedo explicar por qué esta respuesta tiene sentido?"
+  answer: {
+    title: "Una respuesta rápida no siempre construye comprensión.",
+    body: "Una explicación completa puede servir, pero si la recibís antes de intentar razonar, es fácil saltarte el aprendizaje. Podés pedirle a la IA que primero te pregunte qué sabés o qué paso intentarías."
   },
-  regenerate: {
-    title: "Otra respuesta no es necesariamente una respuesta mejor.",
-    body: "Pedir una reformulación puede ayudar a aclarar una idea, pero no verifica que sea verdadera. Conviene pedir que explique sus pasos, comprobar las afirmaciones importantes y contrastarlas con fuentes confiables."
+  hint: {
+    title: "La pregunta te devuelve un papel activo.",
+    body: "En vez de resolver por vos, la IA te invita a recuperar lo que sabés y proponer un primer paso. Así podés construir una respuesta propia. Si te trabás, puede ofrecerte otra pregunta o una pista más concreta."
   },
-  verify: {
-    title: "La IA como apoyo, no como reemplazo.",
-    body: "Este camino te invita a participar activamente: revisar argumentos, contrastar fuentes y explicar la idea con tus palabras. No garantiza que nunca te equivoques, pero convierte la respuesta en una oportunidad para aprender."
+  stuck: {
+    title: "Acompañar también significa dar pistas.",
+    body: "La IA no tiene que dejarte solo frente al problema. Puede avanzar de a poco: una pista, un ejemplo parecido y, si hace falta, una explicación. Lo importante es que puedas entender y explicar el razonamiento, no solo copiar el resultado."
   }
 };
 

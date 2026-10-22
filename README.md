@@ -31,5 +31,5 @@ El video debe permitir la inserción (embedding). Si YouTube indica que el propi
 
 - Cambiá el nombre “Pensá con IA” directamente en `index.html`.
 - Los colores principales están al principio de `css/style.css`, dentro de `:root`.
-- La sección de entrevistas está preparada para agregar el video editado más adelante.
+- La sección de entrevistas está preparada para agregar el video editado más adelante. El eje de la propuesta es que la IA priorice preguntas orientadoras y pistas antes de entregar una solución completa, especialmente cuando el objetivo es aprender.
 - No se recopilan datos ni se guardan respuestas del desafío.
