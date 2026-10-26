@@ -1,11 +1,5 @@
-/*
-  CONFIGURACIÓN DEL VIDEO:
-  1. Subí tu video a YouTube.
-  2. Copiá el enlace completo, por ejemplo:
-     https://www.youtube.com/watch?v=abcdefghijk
-  3. Pegalo en YOUTUBE_URL de abajo.
-*/
-const YOUTUBE_URL = "https://www.youtube.com/watch?v=bDOaskRvBl8";
+
+const YOUTUBE_URL = "https://www.youtube.com/watch?v=ukqv6zCuGhM";
 
 function getYouTubeId(url) {
   if (!url || url.includes("PEGAR_LINK") || url.includes("VIDEO_ID")) return null;
